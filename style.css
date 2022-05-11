@@ -1,0 +1,106 @@
+body{
+  background-color: rgb(226, 224, 224);
+  font-family: 'Open Sans', sans-serif;
+color: gray;
+font-size: 12px;
+  line-height: 15px;
+  
+}
+
+.container{
+  margin: auto;
+  text-align: center;
+  width:40%;
+  height: 90%;
+  -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
+  box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+display: flex;
+flex-direction: column;
+}
+
+
+
+.container > header{
+  background-color: white;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+header img{
+border-radius: 50%;
+
+}
+header h2{
+  color: red;
+  font-weight: bold;
+
+}
+.first-par{
+  margin-left: 100px;
+}
+
+ .container p{
+  font-size: 14px;
+  line-height: 25px;
+  margin: 20px;
+  text-align: start;
+  max-width: 700px;
+  
+
+}
+header a{
+  text-decoration: none;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  border: none;
+}
+header button{
+  background-color: rgb(201, 71, 71);
+  width: 150px;
+  height: 40px;
+  padding: 5px;
+  border: none;
+  border-radius: 2%;
+  
+}
+
+.container > nav{
+  background-color: white;
+  margin-bottom: 20px;
+}
+nav li{
+  display: inline;
+  padding: 20px;
+  text-decoration: none;
+  font-size: 18px;
+  color:gray;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.container > section{
+  background-color: white;
+  margin-bottom: 20px;
+
+}
+
+.favorite-container {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  
+}
+.favorite-container div{
+  margin: 10px;
+}
+
+.favorite-container img{
+  width: 200px;
+  height: 250px;
+}
+
+
+
+
+
+
