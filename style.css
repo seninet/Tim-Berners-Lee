@@ -99,7 +99,25 @@ nav li{
   height: 250px;
 }
 
-
+@media screen and (max-width:480px){
+  .container{
+    margin:auto;
+    width: 80%;
+  }
+header img{
+  width: 150px;
+}
+  nav li{
+    display: flex;
+    flex-direction: column;
+  }
+  .favorite-container {
+    display: flex;
+    flex-direction: column;
+    
+  }
+  
+}
 
 
 
