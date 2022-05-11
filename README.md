@@ -6,9 +6,9 @@ This repo is called a **Consolidation challenge** by which I try to mock-up the 
 ##### Technology Used
 
 * [VS-code](https://code.visualstudio.com/) - text-editor 
-* [MarkDown](https://www.markdownguide.org/) - to format the document 
+* [MarkDown]() - for the Readme 
 * [Git](https://git-scm.com/) - to interact with my github repository 
-* [Github](https://github.com/) -to host repository 
+* [Github](https://github.com/) -to host my repository 
   
   
   <br>
